@@ -14,7 +14,7 @@ A simple and good Obfuscator for python code...</p>
 
 
 <br><br>
-**Unobfuscated**:<br>
+**Original File**:<br>
 ```python3
 print("hello")
 ```
