@@ -18,7 +18,6 @@ A simple and good Obfuscator for python code...</p>
 ```python3
 print("hello")
 ```
-<br><br>
 **Obfuscated File:**<br>
 ```python3
 hhhhHhHhhHHh = eval(bytes([49, 57, 49, 54, 48, 51, 52, 49, 50, 48]).decode())
