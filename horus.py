@@ -72,47 +72,34 @@ def encode_hex(data):
 
 def obfuscate():
     print(Center.XCenter(sun7(banner)))
-# Demande le chemin du fichier source à obfusquer
     filename = Write.Input(
     "[+] Drag the file you want to obfuscate -> ", Colors.red_to_yellow, interval=0.005)
 
-# Lit le contenu du fichier source
     with open(filename, 'r') as f:
         source = f.read()
 
-# Compilation du code en bytecode
     code = compile(source, "<string>", "exec")
 
-# Transformation du bytecode en une chaîne de caractères
     data = marshal.dumps(code)
 
-# Compression des données avec zlib
     compressed_data1 = zlib.compress(data)
 
-# Compression des données avec lzma
     compressed_data2 = lzma.compress(compressed_data1)
 
     compressed_data2_hexa = encode_hex(compressed_data2)
 
 
-# compressed_data3 = ord(compressed_data2)
-# Conversion en une chaîne de caractères hexadécimaux
-# Ajout de chaînes aléatoires pour rendre le code encore plus difficile à lire
+
 
     random_fix = ''.join([random.choice('Il') for _ in range(12)])
     random_prefix = ''.join([random.choice('Il') for _ in range(12)])
     random_suffix = ''.join([random.choice('Il') for _ in range(12)])
     keyvarenc = ''.join([random.choice('Il') for _ in range(12)])
-# Nom du fichier obfusqué
     output_filename = os.path.splitext(os.path.basename(filename))[0] + "-hess.py"
 
-    rdmkey = random.randint(10000, 100000)  # envrypter ca
-    rdmkey2 = random.randint(10000, 100000)  # encrypter ca
-    key = rdmkey * rdmkey2  # encrypter ca
-    # if rdmkey2 == key/rdmkey and rdmkey == key/rdmkey2:  # encrypter ca en codebyte
-    #     print("gg")  # donc la on mettra le execute
-    # else:
-    #     print('no gg')  # ici on mettra un else
+    rdmkey = random.randint(10000, 100000)  
+    rdmkey2 = random.randint(10000, 100000) 
+    key = rdmkey * rdmkey2  
     rdmkey = str(rdmkey)
     rdmkey2 = str(rdmkey2)
     key = str(key)
@@ -126,7 +113,7 @@ def obfuscate():
     keyvar = [ord(c) for c in key]
     keyencrypt = [ord(c) for c in keyvarenc]
 
-# Écriture du code obfusqué dans le fichier de sortie
+
     with open(output_filename, 'w') as f:
         f.write(
             f"{random_fix} = eval(bytes({keyvar}).decode())\n{random_prefix} = eval(bytes({rdmkeyvar}).decode())\n{random_suffix}=eval(bytes({rdmkeyvar2}).decode())\nif eval(bytes({random_fix_var}).decode()) == eval(bytes({random_prefix_var}).decode()) * eval(bytes({random_suffix_var}).decode()): \n   {keyvarenc} = eval(bytes([95, 95, 105, 109, 112, 111, 114, 116, 95, 95, 40, 39, 109, 97, 114, 115, 104, 97, 108, 39, 41, 46, 108, 111, 97, 100, 115]).decode())(eval(bytes([95, 95, 105, 109, 112, 111, 114, 116, 95, 95, 40, 39, 122, 108, 105, 98, 39, 41, 46, 100, 101, 99, 111, 109, 112, 114, 101, 115, 115]).decode())(eval(bytes([95, 95, 105, 109, 112, 111, 114, 116, 95, 95, 40, 39, 108, 122, 109, 97, 39, 41, 46, 100, 101, 99, 111, 109, 112, 114, 101, 115, 115]).decode())(b'{compressed_data2_hexa}')))\n   eval(bytes([101, 120, 101, 99]).decode())(eval(bytes({keyencrypt}).decode()))#exec")
