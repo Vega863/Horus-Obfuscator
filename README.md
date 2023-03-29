@@ -14,12 +14,12 @@ A simple and good Obfuscator for python code...</p>
 
 
 <br><br>
-**Original File **<br>
+**Original File:**<br>
 ```python3
 print("hello")
 ```
 <br><br>
-**Obfuscated File **<br>
+**Obfuscated File:**<br>
 ```python3
 hhhhHhHhhHHh = eval(bytes([49, 57, 49, 54, 48, 51, 52, 49, 50, 48]).decode())
 hHHHhHHhhHHh = eval(bytes([56, 48, 57, 56, 50]).decode())
