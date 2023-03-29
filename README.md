@@ -7,7 +7,10 @@
 -----
 
 ### <p align="center"> Horus Obfuscator </p>
-<p>A simple and good Obfuscator for python code...</p>
+<p align="center">
+<strong>
+A simple and good Obfuscator for python code...</p>
+</strong>
 
 
 <br><br>
