@@ -44,73 +44,73 @@ if eval(bytes([104, 104, 104, 104, 72, 104, 72, 104, 104, 72, 72, 104]).decode()
    eval(bytes([101, 120, 101, 99]).decode())(eval(bytes([72, 104, 104, 104, 72, 104, 104, 104, 104, 104, 104, 72]).decode()))
 ```
 <br><br><br>
-<p align="center">
-<img src="https://cdn.discordapp.com/attachments/892840615732195340/905167285793202266/unknown.png" width="1250", height="100">
-</p>
-<br>
+# <p align="center">
+# <img src="https://cdn.discordapp.com/attachments/892840615732195340/905167285793202266/unknown.png" width="1250", height="100">
+# </p>
+# <br>
 
------
+# -----
 
-### <p align="center">⭐ Features ⭐</p>
+# ### <p align="center">⭐ Features ⭐</p>
 
-<br><br>
-<strong>+ Fast execution</strong>
-<br>
-<strong>+ Good obfuscation</strong>
-<br>
-<strong>+ Small file size</strong>
-<br>
+# <br><br>
+# <strong>+ Fast execution</strong>
+# <br>
+# <strong>+ Good obfuscation</strong>
+# <br>
+# <strong>+ Small file size</strong>
+# <br>
 
-<p align="right">
-<img src="https://repository-images.githubusercontent.com/401896390/32fca8d3-a345-46fb-8d8f-2b37a1e0a810" width="250", height="250">
-</p>
+# <p align="right">
+# <img src="https://repository-images.githubusercontent.com/401896390/32fca8d3-a345-46fb-8d8f-2b37a1e0a810" width="250", height="250">
+# </p>
 
-<br>
-<strong>- You can't choose your own encryption key</strong>
-<br><br>
+# <br>
+# <strong>- You can't choose your own encryption key</strong>
+# <br><br>
 
------
+# -----
 
-### <p align="center">🎯 Levels 🎯</p>
+# ### <p align="center">🎯 Levels 🎯</p>
 
-<p align="center"><strong><i>This section shows the "levels" of this project, from 0/5 ⚪ to 5/5 ⚫!</i></strong</p>
-<p align="center"><strong><i>⚪🟢🔵🔴🟣⚫</i></strong</p>
+# <p align="center"><strong><i>This section shows the "levels" of this project, from 0/5 ⚪ to 5/5 ⚫!</i></strong</p>
+# <p align="center"><strong><i>⚪🟢🔵🔴🟣⚫</i></strong</p>
 
-<br><br>
-* Time: 🔴
-* Complexity: 🟣
-* Service: 🔵
-<br><br>
+# <br><br>
+# * Time: 🔴
+# * Complexity: 🟣
+# * Service: 🔵
+# <br><br>
 
------
+# -----
 
-### <p align="center">💡 Ideas 💡</p>
+# ### <p align="center">💡 Ideas 💡</p>
 
-<p align="center"><strong><i>Feel free to make a pull request on this repository to submit any idea!</i></strong</p>
+# <p align="center"><strong><i>Feel free to make a pull request on this repository to submit any idea!</i></strong</p>
 
-<br><br>
-* Make an official deobfuscator
-<br><br>
+# <br><br>
+# * Make an official deobfuscator
+# <br><br>
 
------
+# -----
   
-### <p align="center">🪓 Deobfuscators 🪓</p>
+# ### <p align="center">🪓 Deobfuscators 🪓</p>
 
-<p align="center"><strong>I did not check the code of the following repositories, use them at your own risks.</strong></p>
+# <p align="center"><strong>I did not check the code of the following repositories, use them at your own risks.</strong></p>
  
-<br><br>
-* [Berserkered](https://github.com/HideakiAtsuyo/Berserkered) by [HideakiAtsuyo](https://github.com/HideakiAtsuyo) | C#
-* [Berserkered](https://github.com/IDRALOU/Berserkered) by [IDRALOU](https://github.com/IDRALOU/Berserkered) | Python3
-<br><br>
+# <br><br>
+# * [Berserkered](https://github.com/HideakiAtsuyo/Berserkered) by [HideakiAtsuyo](https://github.com/HideakiAtsuyo) | C#
+# * [Berserkered](https://github.com/IDRALOU/Berserkered) by [IDRALOU](https://github.com/IDRALOU/Berserkered) | Python3
+# <br><br>
   
------
+# -----
 
-### <p align="center">📌 Disclaimer 📌</p>
+# ### <p align="center">📌 Disclaimer 📌</p>
 
-<br><br>
-* ***Please use this program only for educational purposes.***
-* ***It is not meant to be used in any malicious way, and I decline any responsibility for what you do with it.***
-<br><br>
+# <br><br>
+# * ***Please use this program only for educational purposes.***
+# * ***It is not meant to be used in any malicious way, and I decline any responsibility for what you do with it.***
+# <br><br>
 
------
+# -----
 
