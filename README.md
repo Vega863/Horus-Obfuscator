@@ -9,8 +9,6 @@
 ### <p align="center"> Horus Obfuscator </p>
 
 
-### <p align="center">📋 Examples 📋</p>
-
 <br><br>
 **Unobfuscated**:<br>
 ```python3
