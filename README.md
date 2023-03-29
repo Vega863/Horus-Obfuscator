@@ -8,23 +8,6 @@
 
 ### <p align="center"> Horus Obfuscator </p>
 
-<br><br>
-<p align="center">
-<strong>
-First of all, if you're looking for the <strong>BEST</strong> fully Python obfuscator, you should check <a href="https://github.com/billythegoat356/Hyperion">Hyperion</a>!
-<br><br>
-An unique Python3 obfuscator using <a href="https://github.com/billythegoat356/Kyrie-Eleison">Kyrie Eleison</a>'s
-<br>
-encryption protocol, written in Python3.
-<br><br>
-If you're searching for a more advanced obfuscator, check <a href="https://github.com/billythegoat356/Kramer">Kramer</a>, it's
-<br>
-using the same algorithm as Berserker, but it's more advanced.
-</strong>
-</p>
-<br>
-
------
 
 ### <p align="center">📋 Examples 📋</p>
 
